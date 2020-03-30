@@ -114,11 +114,16 @@ public class FrameInicio extends javax.swing.JFrame {
            dispose();  
         }
         else{
+            if(this.BtnSelectionEmpresa.isSelected()){
             JOptionPane.showMessageDialog(null,"Usted ha ingresado como "+this.BtnSelectionEmpresa.getText()
             ,"Mensaje",1);
             FrameEmpresa e = new FrameEmpresa();
             e.setVisible(true);
             dispose();
+            }
+            else{
+                JOptionPane.showMessageDialog(null,"Seleccione una de las dos opciones","Error",2);
+            }
         }
     }//GEN-LAST:event_BtnIngresarActionPerformed
 
