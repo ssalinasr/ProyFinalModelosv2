@@ -41,7 +41,7 @@ public class PedidoCredito extends Pedido{
             ,"Error",0);
             return false;
         }else{
-            return m.verificarForm(dit, pag);
+            return true;
         }
         }catch(Exception e){
             JOptionPane.showMessageDialog(null,"Acción cancelada","Advertencia",2);
