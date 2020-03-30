@@ -39,8 +39,10 @@ public class PedidoCredito extends Pedido{
         if(m.verificarForm(dit, pag)==false){
             JOptionPane.showMessageDialog(null,"ups, el medio de pago o la tarjeta de crédito no es válido"
             ,"Error",0);
+            return false;
+        }else{
+            return m.verificarForm(dit, pag);
         }
-        return m.verificarForm(dit, pag);
         }catch(Exception e){
             JOptionPane.showMessageDialog(null,"Acción cancelada","Advertencia",2);
             return false;
