@@ -57,7 +57,6 @@ public class featuresSorterCar {
                 g = new ImageIcon();
                 break;
         }
-        this.marca = sortMarca();
         return g;
     }
     
@@ -93,6 +92,8 @@ public class featuresSorterCar {
             k[3] = new ImageIcon(getClass().getResource("/img/audi4.jpg"));
             k[4] = new ImageIcon(getClass().getResource("/img/audi5.jpg"));
         }
+        
+        this.marca = sortMarca();
         return k[rand];
     }
     
