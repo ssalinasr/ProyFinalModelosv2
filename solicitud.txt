@@ -825,3 +825,39 @@ De precio: 717
 Placa:KVR093
 La petición de Petición usuario US1764262 se ha realizado la operación con éxito
 Gracias por utilizar el sistema...
+Solicitud de matriculación ejecutada:
+Del vehículo: Marca: Toyota modelo: Estándar
+De precio: 1324
+Placa:TFA693
+La petición de Petición usuario US3080331 se ha realizado la operación con éxito
+Gracias por utilizar el sistema...
+Solicitud de matriculación ejecutada:
+Del vehículo: Modelo: Deportivo de potencia: 47
+De precio: 550
+Placa:LTX985
+La petición de Petición usuario US1418108 se ha realizado la operación con éxito
+Gracias por utilizar el sistema...
+Solicitud de matriculación ejecutada:
+Del vehículo: Modelo: Deportivo de potencia: 47
+De precio: 550
+Placa:LTX985
+La petición de Petición usuario US1418108 se ha realizado la operación con éxito
+Gracias por utilizar el sistema...
+Solicitud de matriculación ejecutada:
+Del vehículo: Modelo: Deportivo de potencia: 47
+De precio: 550
+Placa:LTX985
+La petición de Petición usuario US1418108 se ha realizado la operación con éxito
+Gracias por utilizar el sistema...
+Solicitud de matriculación ejecutada:
+Del vehículo: Marca: Audi modelo: Estándar
+De precio: 863
+Placa:MPT984
+La petición de Petición usuario US7554842 se ha realizado la operación con éxito
+Gracias por utilizar el sistema...
+Solicitud de matriculación ejecutada:
+Del vehículo: Marca: Toyota modelo: Empresarial
+De precio: 791
+Placa:HDC098
+La petición de Petición usuario US1258426 se ha realizado la operación con éxito
+Gracias por utilizar el sistema...

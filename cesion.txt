@@ -825,3 +825,33 @@ De precio: 717
 Placa: KVR093
 La petición de Petición usuario US1764262 se ha realizado la operación con éxito
 Gracias por utilizar el sistema...
+Certificado de cesión creado:
+Del vehículo: Marca: Toyota modelo: Estándar
+De precio: 1324
+Placa: TFA693
+La petición de Petición usuario US3080331 se ha realizado la operación con éxito
+Gracias por utilizar el sistema...
+Certificado de cesión creado:
+Del vehículo: Modelo: Deportivo de potencia: 47
+De precio: 550
+Placa: LTX985
+La petición de Petición usuario US1418108 se ha realizado la operación con éxito
+Gracias por utilizar el sistema...
+Certificado de cesión creado:
+Del vehículo: Modelo: Deportivo de potencia: 47
+De precio: 550
+Placa: LTX985
+La petición de Petición usuario US1418108 se ha realizado la operación con éxito
+Gracias por utilizar el sistema...
+Certificado de cesión creado:
+Del vehículo: Modelo: Deportivo de potencia: 47
+De precio: 550
+Placa: LTX985
+La petición de Petición usuario US1418108 se ha realizado la operación con éxito
+Gracias por utilizar el sistema...
+Certificado de cesión creado:
+Del vehículo: Marca: Toyota modelo: Familiar
+De precio: 1450
+Placa: TTA583
+La petición de Petición usuario US6872466 se ha realizado la operación con éxito
+Gracias por utilizar el sistema...

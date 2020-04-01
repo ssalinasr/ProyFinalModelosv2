@@ -129,7 +129,7 @@ public class Catalogo {
             
             
             
-            vb.print();  
+            //vb.print();  
     }
         for(Vendible scooter:scootervendible){
             z.add(scooter.getDescription());
@@ -149,7 +149,7 @@ public class Catalogo {
             this.cadenasescuterstipo[8] = vs.getName();
             this.cadenasescuterstipo[9] = vs.getName();
             
-            vs.print();
+            //vs.print();
         
         }
     }
@@ -182,10 +182,7 @@ public DefaultTableModel tableScooter(){
                         return false;
                     }
             };
-        String[] fila = this.cadenasescuters;
-        String[] filaaux = this.cadenasescuterstipo;
-        System.out.println(Arrays.toString(fila));
-        System.out.println(Arrays.toString(filaaux));
+
         for (int i = 0; i < nScooters; i++){
             String[] filax = new String[3];
             filax[0] = Integer.toString(i+1);

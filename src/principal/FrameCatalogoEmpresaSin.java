@@ -279,7 +279,6 @@ public class FrameCatalogoEmpresaSin extends javax.swing.JFrame {
                 "Pago",JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE, icon, Options, Options[0]);
         DefaultTableModel mod = (DefaultTableModel)this.TablaCatalogoVehiculos.getModel();
         if(Selection == 0){
-            System.out.println("Paga de contado");
             client = new ClienteContado();
             client.nuevoPedido(currentprice);          
             mod.removeRow(id);
@@ -287,7 +286,6 @@ public class FrameCatalogoEmpresaSin extends javax.swing.JFrame {
             
         }
         else{
-            System.out.println("Paga a crédito");
             client = new ClienteCredito();
             client.nuevoPedido(currentprice);
             mod.removeRow(id);
@@ -323,7 +321,6 @@ public class FrameCatalogoEmpresaSin extends javax.swing.JFrame {
                 "Pago",JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE, icon, Options, Options[0]);
         DefaultTableModel mod = (DefaultTableModel)this.TablaCatalogoEscuters.getModel();
         if(Selection == 0){
-            System.out.println("Paga de contado");
             client = new ClienteContado();
             client.nuevoPedido(currentprice);          
             mod.removeRow(ids);
@@ -331,7 +328,6 @@ public class FrameCatalogoEmpresaSin extends javax.swing.JFrame {
                       
         }
         else{
-            System.out.println("Paga a crédito");
             client = new ClienteCredito();
             client.nuevoPedido(currentprice);
             mod.removeRow(ids);
