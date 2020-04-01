@@ -26,7 +26,7 @@ public class PedidoContado extends Pedido{
     @Override
     public void paga() {
         calculateInterface calc;
-        calc = new calculateNacional();
+        calc = new calculateViaContado();
         this.importe = calc.calcularImporte(importe);
         JOptionPane.showMessageDialog(null,"El pago del pedido por precio de "+
             importe +" se ha realizado.","Éxito",1);
