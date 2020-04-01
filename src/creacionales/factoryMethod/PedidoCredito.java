@@ -51,7 +51,7 @@ public class PedidoCredito extends Pedido{
     @Override
     public void paga() {
         calculateInterface calc;
-        calc = new calculateExtranjero();
+        calc = new calculateViaCredito();
         this.importe = calc.calcularImporte(importe);
         JOptionPane.showMessageDialog(null,"El pago del pedido a crédito por "
                 +importe+ " se ha realizado","Éxito",1);
