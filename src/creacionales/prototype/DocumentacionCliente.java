@@ -36,8 +36,8 @@ public class DocumentacionCliente extends Documentacion{
     }
 
     public void imprime(){      
-        Documento doc = documentos.get(documentos.size()-3);
-        doc.imprime(descripcion, precio, placa);
+        for(Documento docum:documentos)
+        docum.imprime(descripcion, precio, placa);
     } 
     
 }
