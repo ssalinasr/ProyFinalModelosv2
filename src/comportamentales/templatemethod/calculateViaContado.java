@@ -9,7 +9,7 @@ package comportamentales.templatemethod;
  *
  * @author sebas
  */
-public class calculateNacional implements calculateInterface {
+public class calculateViaContado implements calculateInterface {
 
     @Override
     public double calcularImporte(double vehicleValue){
