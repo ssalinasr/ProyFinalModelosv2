@@ -30,8 +30,12 @@ public class DocumentacionCliente extends Documentacion{
     }
     
     public void visualiza(){
-        for(Documento doc:documentos)
-        doc.visualiza(descripcion, precio, placa);
+        Documento doc = documentos.get(documentos.size()-3);
+        doc.imprime(descripcion, precio, placa);
+        doc = documentos.get(documentos.size()-2);
+        doc.imprime(descripcion, precio, placa);
+        doc = documentos.get(documentos.size()-1);
+        doc.imprime(descripcion, precio, placa);
     }
 
     public void imprime(){      
