@@ -213,7 +213,7 @@ public class FrameCatalogoEmpresaCon extends javax.swing.JFrame {
         descrSortSc descriptors = new descrSortSc();
         int id = this.TablaCatalogoVehiculos.getSelectedRow();
         int ids = this.TablaCatalogoEscuters.getSelectedRow();
-        if(id != 1 && ids == -1){
+        if(id != -1 && ids == -1){
             ImageIcon img = this.imacars[id];
             Image escalada = img.getImage().getScaledInstance(this.LblImage.getWidth(), this.LblImage.getHeight(), Image.SCALE_DEFAULT);
             ImageIcon imgesc = new ImageIcon(escalada);
